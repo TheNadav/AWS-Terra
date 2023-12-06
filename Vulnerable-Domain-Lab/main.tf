@@ -26,7 +26,7 @@ resource "aws_instance" "DC-01" {
     }
 }
 
-# DC 02 ------
+# Windows Server 02 ------
 resource "aws_instance" "Server-02" {
     ami = "ami-0cd601a22ac9e6d79"
     instance_type = "t3.medium"
